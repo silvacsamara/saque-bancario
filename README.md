@@ -1,6 +1,6 @@
-**Exercício de Algoritmo - Saque Bancário **
+Exercício de Algoritmo - Saque Bancário
 
-**Descrição **
+Descrição:
 
 Este exercício simula o funcionamento básico de uma caixa eletrônico. 
 
@@ -16,4 +16,4 @@ Se não for múltiplo de 10, exibe a mensagem:
 Se for múltiplo de 10, exibe a mensagem:
 "Saque realizado com sucesso."
 
-**Tecnologia utilizada:** Javascript 
+Tecnologia utilizada: Javascript 
