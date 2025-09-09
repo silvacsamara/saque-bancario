@@ -1,19 +1,18 @@
-Exercício de Algoritmo - Saque Bancário
+# Exercício de Algoritmo - Saque Bancário
 
-Descrição:
+## Descrição
 
-Este exercício simula o funcionamento básico de uma caixa eletrônico. 
+Este exercício simula o funcionamento básico de um caixa eletrônico, utilizando **estruturas condicionais**.
 
-- Estrutura condicional.
+### Regras:
+1. Solicita que o usuário digite o valor que deseja sacar.
+2. Verifica se o valor é múltiplo de 10.
+   - Se **não** for múltiplo de 10, exibe a mensagem:  
+     `"Valor inválido. Digite um valor múltiplo de 10."`
+   - Se for múltiplo de 10, exibe a mensagem:  
+     `"Saque realizado com sucesso."`
 
-1. Solicita que o usuário digite o valor que deseja sacar;
+## Tecnologias utilizadas
+- **JavaScript**
+- **Node.js** (para receber o valor diretamente no terminal)
 
-2. Verifica se o valor é múltiplo de 10;
-
-Se não for múltiplo de 10, exibe a mensagem:
-"Valor inválido. Digite um valor múltiplo de 10."
-
-Se for múltiplo de 10, exibe a mensagem:
-"Saque realizado com sucesso."
-
-Tecnologia utilizada: Javascript 
