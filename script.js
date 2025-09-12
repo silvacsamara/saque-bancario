@@ -10,12 +10,14 @@ Escreva o **algoritmo** para que o caixa eletrônico funcione da seguinte forma:
 
 const prompt = require('prompt-sync')();
 
-let valorSaque = parseInt(prompt('Digite o valor que deseja sacar: '))
+let valorSaque = parseFloat(prompt('Digite o valor que deseja sacar: '))
 
 if(isNaN(valorSaque)){
     console.log("Valor inválido. Por favor, digite apenas números.")
-}else if(valorSaque <= 0){
+}else if(valorSaque === 0){
     console.log("0 não é um valor disponível para saque. Digite um valor válido.")
+}else if(valorSaque <0){
+    console.log("Não é possível sacar um valor negativo. Por favor, digite um valor válido.")
 }else if(valorSaque % 10 === 0){
     console.log("Saque realizado com sucesso.")
 }else{
